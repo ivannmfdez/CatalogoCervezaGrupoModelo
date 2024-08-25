@@ -144,7 +144,11 @@ input[type="text"] {
     .product img {
         margin-bottom: 10px;
     }
+    .product-list {
+        grid-template-columns: repeat(2, 1fr); /* Dos columnas en pantallas pequeñas */
+    }
 }
+
 
 #product-details {
     opacity: 0;

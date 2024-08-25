@@ -144,11 +144,11 @@ input[type="text"] {
     .product img {
         margin-bottom: 10px;
     }
+    
     .product-list {
         grid-template-columns: repeat(2, 1fr); /* Dos columnas en pantallas pequeñas */
     }
 }
-
 
 #product-details {
     opacity: 0;
@@ -163,7 +163,7 @@ input[type="text"] {
 
 .product-list {
     display: grid;
-    grid-template-columns: repeat(2, 1fr);
+    grid-template-columns: repeat(auto-fill, minmax(300px, 1fr)); /* Ajusta el tamaño mínimo según tus necesidades */
     gap: 20px;
 }
 

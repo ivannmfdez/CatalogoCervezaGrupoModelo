@@ -144,9 +144,9 @@ input[type="text"] {
     .product img {
         margin-bottom: 10px;
     }
-    
+
     .product-list {
-        grid-template-columns: repeat(2, 1fr); /* Dos columnas en pantallas pequeñas */
+        grid-template-columns: 1fr 1fr !important; /* Forzando dos columnas en pantallas pequeñas */
     }
 }
 
